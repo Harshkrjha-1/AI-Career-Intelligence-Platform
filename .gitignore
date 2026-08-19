@@ -1,0 +1,28 @@
+# Environment & Secret Files
+.env
+.env.*
+!.env.example
+
+# Frontend Dependencies & Builds
+node_modules/
+dist/
+.vite/
+
+# Backend Virtual Environment & Caches
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.db
+.pytest_cache/
+static/resumes/*
+!static/resumes/.gitkeep
+
+# OS & IDE Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
